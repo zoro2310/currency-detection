@@ -56,13 +56,10 @@ for i in range(0, len(training_set)):
 		max_pt = i
 		max_kp = kp2
 
-if max_val >=8:
-	print(training_set[max_pt])
-	print('good matches ', max_val)
-	train_img = cv2.imread(training_set[max_pt])
-	img3 = cv2.drawMatchesKnn(test_img, kp1, train_img, max_kp, good, 4)
-	note = str(training_set[max_pt])
-	print(note)
-	(plt.imshow(img3), plt.show())
-else:
-	print('No Matches')
+
+print("File name and address of the image matched: "+training_set[max_pt])
+print('Max Key Point matches ', max_val)
+train_img = cv2.imread(training_set[max_pt])
+img3 = cv2.drawMatchesKnn(test_img, kp1, train_img, max_kp, good, 4)
+note = str(training_set[max_pt])
+(plt.imshow(img3), plt.show())

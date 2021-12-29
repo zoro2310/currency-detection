@@ -1,7 +1,7 @@
 # currency-detection
 
 ## INSTRUCTIONS TO RUN THE CODE
-### <There's also an alternative at the end>
+### There also an alternative at the end
 - Create the data set
     ```
     From the repository either download the complete dataset 
@@ -38,4 +38,4 @@
     ```
 - Run the Main FIle
 
-## Alternatively you can fork the repository and clone that to your local system or open in github codespace and then run the Main file
+<p> Alternatively you can fork the repository and clone that to your local system or open in github codespace and then run the Main file
